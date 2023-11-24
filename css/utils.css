@@ -1,0 +1,116 @@
+:root {
+    --gray: #A7A7A7;
+    --light-gray: #EBEBEB;
+    --dark-gray: #404040;
+    --darkest-gray: #121212;
+    --blue: #447DAA;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.text-10 {
+    font-size: 1rem;
+}
+
+.text-11 {
+    font-size: 1.1rem;
+}
+
+.text-12 {
+    font-size: 1.2rem;
+}
+
+.text-13 {
+    font-size: 1.3rem;
+}
+
+.text-14 {
+    font-size: 1.4rem;
+}
+
+.text-15 {
+    font-size: 1.5rem;
+}
+
+.text-16 {
+    font-size: 1.6rem;
+}
+
+.text-18 {
+    font-size: 1.8rem;
+}
+
+.text-20 {
+    font-size: 2rem;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-blue {
+    color: var(--blue)
+}
+
+.text-gray {
+    color: var(--gray)
+}
+
+.text-dark-gray {
+    color: var(--dark-gray)
+}
+
+.text-darkest-gray {
+    color: var(--darkest-gray)
+}
+
+.text-black {
+    color: black;
+}
+
+.light {
+    font-weight: 400;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.text-center {
+    text-align: center;
+}
+

@@ -1,0 +1,241 @@
+/* DESKTOP */
+
+@media only screen and (min-width: 1200px) {
+
+    .sandals-logo-image {
+        height: 3.9rem;
+    }
+
+    .sandals-logo-text {
+        font-size: .7rem;
+    }
+
+    .nav-menu {
+        margin-right: 3.2rem;
+
+        .categories {
+            font-size: 1.4rem;
+            font-weight: 600;
+
+            & li {
+                margin-left: 3.2rem;
+            }
+        }
+
+
+    }
+
+    .check-button {
+        width: 13.9rem;
+        height: 5.6rem;
+        font-size: 1.65rem;
+
+        span {
+            font-size: 1.3rem;
+        }
+    }
+
+    .hero-image {
+        height: 70rem;
+    }
+
+    .countdown-container {
+        top: 46rem;
+        width: 35.7rem;
+
+        .countdown-title {
+            font-size: 1.2rem;
+            padding: 1rem 0;
+        }
+
+        .countdown-timer {
+            padding: 2.2rem 0;
+
+            .number {
+                font-size: 2.4rem;
+            }
+
+            .unit {
+                font-size: 1rem;
+            }
+
+            .timer-line {
+                height: 4rem;
+                margin: 0 2rem;
+            }
+        }
+    }
+
+    .offers {
+        margin: -7rem auto 3.5rem;
+        padding: 7rem 0;
+
+        .circle {
+            width: 5rem;
+            height: 5rem;
+            font-size: 1.6rem;
+        }
+
+        .resort-credit {
+            & p {
+                width: 34rem;
+                font-size: 2rem;
+
+                & span {
+                    font-size: 6rem;
+                }
+
+                & span:last-child {
+                    font-size: 2.8rem;
+                }
+            }
+
+            .circle-container {
+                /* ??? */
+                margin: 2rem;
+            }
+
+            & .circle-line {
+                width: .05rem;
+                height: 4.1rem;
+            }
+
+            & .circle {
+                margin: 1rem 0;
+            }
+
+        }
+
+        .offer-line {
+            max-width: 74.6rem;
+            margin: 4rem auto 2.8rem;
+        }
+
+        .limited-offer {
+            & p:nth-of-type(1) {
+                margin-bottom: 1.3rem;
+                font-size: 2rem;
+            }
+
+            & p:nth-of-type(2) {
+                width: 100%;
+                font-size: 1.2rem;
+            }
+
+            & p:nth-of-type(3) {
+                font-size: 1.6rem;
+                margin-bottom: 1.2rem;
+            }
+
+            & p:nth-of-type(4) {
+                font-size: 2rem;
+            }
+        }
+    }
+
+    .register {
+        margin: 0 1.5rem 14rem;
+
+        & .container-important {
+            width: 18.9rem;
+            height: 2.6rem;
+            margin-bottom: 1.6rem;
+            font-size: 1.4rem;
+        }
+
+        &>p:nth-of-type(1) {
+            font-size: 2rem;
+        }
+
+        &>p:nth-of-type(2) {
+            width: 100%;
+            font-size: 1.4rem;
+        }
+
+        & a {
+            font-size: 1.4rem;
+        }
+    }
+
+    .resorts {
+        margin: 0 auto 14rem;
+        max-width: 113.2rem;
+
+        .subtitle {
+            margin: 2rem 0 3.5rem;
+
+            & .line {
+                width: 45rem;
+            }
+        }
+
+        .card {
+            margin-bottom: 3.5rem;
+        }
+
+        .card img {
+            width: 51.6rem;
+            height: 36.5rem;
+        }
+
+        .card>div {
+            height: 36.5rem;
+            background-color: white;
+        }
+
+        & h3 {
+            font-size: 3rem;
+        }
+
+        .line {
+            width: .05rem;
+            height: 1.4rem;
+            margin: 0 1rem;
+            align-self: center;
+            background-color: var(--gray);
+        }
+
+        .text-copy {
+            font-size: 1.2rem;
+        }
+
+        & .button-rooms a {
+            font-size: 1.4rem;
+        }
+
+        .button-offer img {
+            width: .7rem;
+            height: auto;
+            margin-left: .5rem;
+        }
+    }
+
+    .guarantee {
+        margin: 0 3rem 7rem;
+
+        & img {
+            width: 21.3rem;
+            height: 18.241rem;
+            margin-bottom: 2rem;
+        }
+
+        & p {
+            font-size: 2rem;
+        }
+
+        & p:nth-of-type(2) {
+            max-width: 80.3rem;
+            font-size: 1.4rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .navbar {
+        margin: 2rem auto;
+        max-width: 113.4rem;
+    }
+    .offers {
+        max-width: 113.4rem;
+    }
+}
